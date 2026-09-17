@@ -1,7 +1,9 @@
 {
   "name": "bootdev-pokedex-cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A TypeScript CLI Pokedex built with Node.js and the PokeAPI as part of a Boot.dev guided project.",
+  "main": "dist/main.js",
+  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/main.js",
@@ -12,18 +14,23 @@
     "type": "git",
     "url": "git+https://github.com/KhaledNILCareer/bootdev-pokedex-cli.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "cli",
+    "pokedex",
+    "pokeapi",
+    "bootdev"
+  ],
+  "author": "Khaled Hassan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KhaledNILCareer/bootdev-pokedex-cli/issues"
   },
   "homepage": "https://github.com/KhaledNILCareer/bootdev-pokedex-cli#readme",
-  "description": "",
   "devDependencies": {
     "@types/node": "^26.5.1",
     "typescript": "^7.0.2",
     "vitest": "^5.0.1"
-  },
-  "type": "module"
+  }
 }
