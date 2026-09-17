@@ -12,6 +12,5 @@ export async function commandPokedex( state: State): Promise<void> {
   pokemons.forEach( (poke) => {
     console.log(` - ${poke}`)
   })
-
   
 }
